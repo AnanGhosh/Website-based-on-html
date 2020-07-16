@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact</title>
+</head>
+
+<body>
+    <a href="index.html" title="Back to Home page">Home Page</a>
+    <a href="mobile_list" title="Back to Mobile-List page">Go here for choice your mobile</a>
+  <h2>Here you can contact with us by fill up this form</h2>
+
+  <form action="mailto:ananghosh15@gmail.com" method="post" enctype="text/plain">
+
+    <label for="Name">Name:
+      <input id="name" type="text" name="" value="">
+    </label>
+    <br>
+    <br>
+    <div class="Gender">
+      <label for="Gender">Select Your Gender:</label>
+      <label for="Male">Male
+        <input type="radio" name="Gender" value="">
+      </label>
+
+      <label for="Female">Female
+        <input type="radio" name="Gender" value="">
+      </label>
+
+    </div>
+    <br>
+    <div class="">
+      <label for="email">Email:
+        <input type="email" name="email" value="" required>
+
+      </label>
+
+      <label for="Password">Password:
+        <input type="password" name="password" value="" pattern="{5,10}" required title="Password must be between 5 to 10 crachacter" required>
+      </label>
+
+
+    </div>
+    <br>
+    <label for="Message">Message:</label>
+    <textarea name="Message" rows="8" cols="80"></textarea>
+    <input type="submit" name="">
+
+
+  </form>
+
+</body>
+
+</html>
